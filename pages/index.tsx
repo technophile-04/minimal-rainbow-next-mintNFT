@@ -68,7 +68,7 @@ const Home: NextPage = () => {
 						<p style={{ margin: "12px 0 24px" }}>
 							{totalMinted} minted so far!
 						</p>
-						<ConnectButton />
+						<ConnectButton showBalance={true} />
 
 						{mintError && (
 							<p style={{ marginTop: 24, color: "#FF6257" }}>
